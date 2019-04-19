@@ -1,0 +1,24 @@
+/* for fade-in, fade-out */
+ body {
+   display:none;
+ }
+
+div .img_icon {
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  vertical-align:middle;
+  /* margin-top:50%; */
+}
+
+div .img_intro {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  vertical-align:middle;
+  margin-bottom: 20%;
+}

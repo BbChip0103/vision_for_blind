@@ -1,0 +1,184 @@
+/*
+ *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+ */
+body {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.highlight {
+  background-color: #eee;
+  font-size: 1.2em;
+  margin: 0 0 30px 0;
+  padding: 0.2em 1.5em;
+}
+.warning {
+  color: red;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1000px) {
+/* hack! to detect non-touch devices */
+  div#links a {
+		line-height: 0.8em;
+  }
+}
+
+audio {
+max-width: 100%;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+word-break: break-word;
+}
+
+button.btn {
+  /* padding:1rem;*/
+  margin-left:1rem;
+}
+i.rec--icon {
+	font-size: 1.8rem;
+  margin-right:0.5rem;
+}
+
+i.rec--icon.recording{
+	color:#FF0A0A;
+}
+
+canvas.piture--place{
+  background-color: #ffffff;
+  max-width: 100%;
+  width: 100%;
+  height:30vh;
+  max-height: 30vh;
+  margin-bottom:3vw;
+  border-radius: 15px;
+  border-color: #A9A9A9;
+}
+
+div.container {
+margin: 0 auto 0 auto;
+width:100%;
+max-width: 40em;
+padding: 1em 1.5em 1.3em 1.5em;
+}
+
+h1 {
+border-bottom: 1px solid #ccc;
+font-family: 'Roboto', sans-serif;
+/* font-weight: 500; */
+font-size:2.5rem;
+margin: 0 0 0.8em 0;
+padding: 0 0 0.2em 0;
+}
+
+h2 {
+color: #444;
+font-size: 2em;
+font-weight: 500;
+line-height: 1em;
+margin: 0 0 0.8em 0;
+}
+
+h3 {
+border-top: 1px solid #eee;
+color: #666;
+font-weight: 500;
+font-size:2rem;
+margin: 20px 0 10px 0;
+white-space: nowrap;
+}
+
+html {
+/* avoid annoying page width change
+when moving from the home page */
+overflow-y: scroll;
+}
+
+h1 span {
+  white-space: nowrap;
+}
+
+strong {
+  font-weight: 500;
+}
+
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+video {
+  background: #222;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .btn_style {
+    font-size:5vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+}
+
+@media screen and (max-width: 450px) {
+}
+
+
+/* yewon */
+div .img_icon {
+  width: 10%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  vertical-align:middle;
+  margin-top:5%;
+}
+
+div .img_intro {
+  width: 20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  vertical-align:middle;
+  margin-bottom: 2%;
+}
+
+button {
+  background:#FFFFFF;
+  color:#474747;
+  border:none;
+  /* height:6px; */
+  font-size:1.8em;
+  /* font-size:5vw; */
+  cursor:pointer;
+  outline:none;
+  width:100%;
+}
+
+.button--wrapper{
+  max-width: 50%;
+}
+
+.sub-title {
+  margin: 1em;
+  border: solid 0.02em #A9A9A9;
+  width: 5em;
+}

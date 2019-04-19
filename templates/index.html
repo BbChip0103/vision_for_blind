@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>spring</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../static/css/intro.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div style="height: 5vh;"></div>
+  <div id="area" style="height: 25vh;"></div>
+  <div>
+    <img id="logo_img" class="img_icon" src="static/img/icon.png"></img>
+    <img id="logo_img2" class="img_intro" src="static/img/spring_intro.png" alt=""></img>
+  </div>
+  <div>
+    <img id="logo" src="static/img/logo.png" style="margin-left: auto;margin-right: auto;display: block"></img>
+  </div>
+
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script>
+    window.onload= $(function($) {
+      $("body").fadeIn('slow');
+        setTimeout(function() {
+        $("#logo_img").animate({height:'-=50%',width:'-=20%'});
+        $("#logo_img2").animate({height:'-=50%',width:'-=30%'});
+        $("#logo").animate({height:'+=40%',width:'+=30%'});
+        $("#area").animate({height: '0'});
+        setTimeout(function() {
+        $("body").fadeOut('fast', function(){
+          window.location = '/main';
+        });
+      }, 300);
+      }, 2000);
+    });
+  </script>
+</body>
+
+</html>
